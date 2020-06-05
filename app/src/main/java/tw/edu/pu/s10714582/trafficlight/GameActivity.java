@@ -104,7 +104,7 @@ public class GameActivity extends AppCompatActivity implements DialogInterface.O
                 lightTimer.removeCallbacks(lightTransfer);//撤銷執行續
                 toast.show();
 
-                alertDialog.setMessage("喜歡闖紅燈？ 你掛了 " + String.valueOf(GameSV.step) + "步");
+                alertDialog.setMessage("喜歡闖紅燈喔？ 掛了 " + String.valueOf(GameSV.step) + "步");
                 alertDialog.show();
             }
 
