@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
         //設定螢幕為橫式
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+
+
         setContentView(R.layout.activity_main);
     }
 
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
         finish();
     }
+
     public void EndApp(View v){
         finish();
     }
