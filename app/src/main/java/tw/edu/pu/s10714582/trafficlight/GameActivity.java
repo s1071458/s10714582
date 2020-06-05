@@ -48,7 +48,7 @@ public class GameActivity extends AppCompatActivity implements DialogInterface.O
         lightTimer = new Handler();
 
         lightTimer.postDelayed(lightTransfer, 2000);
-        toast = Toast.makeText(this, " 不要給我亂跑?!", Toast.LENGTH_LONG);
+        toast = Toast.makeText(this, " 不要給我亂跑...?!", Toast.LENGTH_LONG);
 
 
         alertDialog = new AlertDialog.Builder(this);
